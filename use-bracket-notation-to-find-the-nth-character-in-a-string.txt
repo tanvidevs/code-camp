@@ -1,0 +1,5 @@
+// Setup
+const lastName = "v";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[0]; // Change this line
