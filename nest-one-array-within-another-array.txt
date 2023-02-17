@@ -1,0 +1,2 @@
+// Only change code below this line
+const myArray = [["Two-dimensional", 2], ["Two rows", 12]];
