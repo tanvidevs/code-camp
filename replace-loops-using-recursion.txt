@@ -1,0 +1,8 @@
+function sum(arr, n) {
+  // Base case: If n is 0, return 0
+  if (n === 0) {
+    return 0;
+  }
+  // Recursive case: Return the sum of the first n-1 elements
+  return sum(arr, n - 1) + arr[n - 1];
+}
