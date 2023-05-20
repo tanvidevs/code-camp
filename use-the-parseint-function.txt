@@ -1,0 +1,8 @@
+function convertToInteger(str) {
+  var convertedNum = parseInt(str);
+  return convertedNum;
+}
+
+console.log(convertToInteger("56")); // Output: 56
+console.log(convertToInteger("77")); // Output: 77
+console.log(convertToInteger("JamesBond")); // Output: NaN
