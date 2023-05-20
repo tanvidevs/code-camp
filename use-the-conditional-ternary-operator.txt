@@ -1,0 +1,7 @@
+function checkEqual(a, b) {
+  return a === b ? "Equal" : "Not Equal";
+}
+
+console.log(checkEqual(1, 2));   // Output: Not Equal
+console.log(checkEqual(1, 1));   // Output: Equal
+console.log(checkEqual(1, -1));  // Output: Not Equal
