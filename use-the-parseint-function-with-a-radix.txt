@@ -1,0 +1,7 @@
+function convertToInteger(str) {
+  var convertedNum = parseInt(str, 2);
+  return convertedNum;
+}
+
+console.log(convertToInteger("10011")); // Output: 19
+console.log(convertToInteger("111001")); // Output: 57
