@@ -1,0 +1,5 @@
+function randomWholeNum() {
+  var randomNum = Math.random() * 10;
+  var wholeNum = Math.floor(randomNum);
+  return wholeNum;
+}
